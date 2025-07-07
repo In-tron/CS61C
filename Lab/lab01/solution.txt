@@ -1,0 +1,8 @@
+1. echo "In-tron" input.txt
+2. gdb ./int_hello
+3. break main
+4. run < input.txt #run with argument
+5. next
+6. print a_word
+7. next
+8. ...
