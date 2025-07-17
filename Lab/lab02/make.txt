@@ -1,7 +1,9 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. clean:
+	-rm -rf core *.o *~ "#"*"#" Makefile.bak $(BINARIES) *.dSYM
+2. BINARIES = $(VECTOR_PROG) $(BIT_OPS_PROG) $(LFSR_PROG)
+3. CC = gcc
+4. c99
+5. $ (FOO)
+6. macOS
+7. $(LFSR_PROG): $(LFSR_OBJS)
+	$(CC) $(CFLAGS) -g -o $(LFSR_PROG) $(LFSR_OBJS) $(LDFLAGS)
